@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C0B8FD85-4EE6-4FC3-968E-168E06774BEA"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E560A1A-846A-4D90-8E19-95C20C8F51DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcommerceDemo/ViewController/MainView/CategoryModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "CategoryModel"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "3E560A1A-846A-4D90-8E19-95C20C8F51DE - 49024cab43bcb2c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcommerceDemo.CategoryModel.CodingKeys.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;EcommerceDemo.CategoryModel.CodingKeys&gt;"
+                  moduleName = "EcommerceDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/devangbhavsar/Documents/Demos/EcommerceDemo/EcommerceDemo/ViewController/MainView/CategoryModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  uuid = "3E560A1A-846A-4D90-8E19-95C20C8F51DE - 7247680e8b71b46"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcommerceDemo.CategoryModel.CodingKeys.rawValue.getter : Swift.String"
+                  moduleName = "EcommerceDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/devangbhavsar/Documents/Demos/EcommerceDemo/EcommerceDemo/ViewController/MainView/CategoryModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7BAA752-C5C6-43D8-BE74-BE1208C76350"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcommerceDemo/ViewController/MainView/CategoryModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "Categories"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "C7BAA752-C5C6-43D8-BE74-BE1208C76350 - 9e1aac5e049213c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcommerceDemo.Categories.CodingKeys.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;EcommerceDemo.Categories.CodingKeys&gt;"
+                  moduleName = "EcommerceDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/devangbhavsar/Documents/Demos/EcommerceDemo/EcommerceDemo/ViewController/MainView/CategoryModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  uuid = "C7BAA752-C5C6-43D8-BE74-BE1208C76350 - da0c15cd9ddfb946"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcommerceDemo.Categories.CodingKeys.rawValue.getter : Swift.String"
+                  moduleName = "EcommerceDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/devangbhavsar/Documents/Demos/EcommerceDemo/EcommerceDemo/ViewController/MainView/CategoryModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06D13D88-64E2-424C-B36A-6D2B8C8371C3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcommerceDemo/ViewController/MainView/CategoryModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "Products"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "06D13D88-64E2-424C-B36A-6D2B8C8371C3 - 156034be710f7997"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcommerceDemo.Products.CodingKeys.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;EcommerceDemo.Products.CodingKeys&gt;"
+                  moduleName = "EcommerceDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/devangbhavsar/Documents/Demos/EcommerceDemo/EcommerceDemo/ViewController/MainView/CategoryModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  uuid = "06D13D88-64E2-424C-B36A-6D2B8C8371C3 - 5df724a2016061d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcommerceDemo.Products.CodingKeys.rawValue.getter : Swift.String"
+                  moduleName = "EcommerceDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/devangbhavsar/Documents/Demos/EcommerceDemo/EcommerceDemo/ViewController/MainView/CategoryModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6E02F2F-87A2-4CFC-8CA8-AC63345D3BB7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcommerceDemo/ViewController/MainView/CategoryModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "Rankings"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "F6E02F2F-87A2-4CFC-8CA8-AC63345D3BB7 - cde1bdb2569a87f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcommerceDemo.Rankings.CodingKeys.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;EcommerceDemo.Rankings.CodingKeys&gt;"
+                  moduleName = "EcommerceDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/devangbhavsar/Documents/Demos/EcommerceDemo/EcommerceDemo/ViewController/MainView/CategoryModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  uuid = "F6E02F2F-87A2-4CFC-8CA8-AC63345D3BB7 - b398b2fa1afa9d39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcommerceDemo.Rankings.CodingKeys.rawValue.getter : Swift.String"
+                  moduleName = "EcommerceDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/devangbhavsar/Documents/Demos/EcommerceDemo/EcommerceDemo/ViewController/MainView/CategoryModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C246BE16-0900-4598-96AD-50E002D03880"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcommerceDemo/ViewController/MainView/CategoryModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "Tax"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "C246BE16-0900-4598-96AD-50E002D03880 - 3cf536717d173651"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcommerceDemo.Tax.CodingKeys.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;EcommerceDemo.Tax.CodingKeys&gt;"
+                  moduleName = "EcommerceDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/devangbhavsar/Documents/Demos/EcommerceDemo/EcommerceDemo/ViewController/MainView/CategoryModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  uuid = "C246BE16-0900-4598-96AD-50E002D03880 - f07fa0ec3ebdca6a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcommerceDemo.Tax.CodingKeys.rawValue.getter : Swift.String"
+                  moduleName = "EcommerceDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/devangbhavsar/Documents/Demos/EcommerceDemo/EcommerceDemo/ViewController/MainView/CategoryModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "904B06F7-6EDA-4E3A-80E5-B63133FA844D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcommerceDemo/ViewController/MainView/CategoryModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "Variants"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "904B06F7-6EDA-4E3A-80E5-B63133FA844D - cbbf85b55f9df38f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcommerceDemo.Variants.CodingKeys.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;EcommerceDemo.Variants.CodingKeys&gt;"
+                  moduleName = "EcommerceDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/devangbhavsar/Documents/Demos/EcommerceDemo/EcommerceDemo/ViewController/MainView/CategoryModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  uuid = "904B06F7-6EDA-4E3A-80E5-B63133FA844D - d5abb3e34ccf3cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcommerceDemo.Variants.CodingKeys.rawValue.getter : Swift.String"
+                  moduleName = "EcommerceDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/devangbhavsar/Documents/Demos/EcommerceDemo/EcommerceDemo/ViewController/MainView/CategoryModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE3049F2-7249-4D53-B29E-0D9E19BE2ADA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EcommerceDemo/ViewController/MainView/CategoryViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "searchBar(_:textDidChange:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

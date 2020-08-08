@@ -29,6 +29,8 @@ extension ProductViewController : UITableViewDataSource,UITableViewDelegate {
         return cell
      }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        
         let objProductDetails = UIStoryboard(name: MainStoryBoard, bundle: nil).instantiateViewController(identifier: "ProductDetailsViewController") as! ProductDetailsViewController
         objProductDetails.objProducts = objProductViewModel.arrSearchProducts[indexPath.row]
         self.navigationController?.pushViewController(objProductDetails, animated: true)

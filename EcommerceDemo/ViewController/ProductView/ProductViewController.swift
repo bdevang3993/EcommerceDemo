@@ -31,6 +31,27 @@ class ProductViewController: UIViewController {
         searchView.searchTextField.delegate = self
         objProductViewModel.arrProducts = objCategory?.products as! [Products]
         objProductViewModel.arrSearchProducts = objProductViewModel.arrProducts
+        if objProductViewModel.arrSearchProducts.count <= 0 {
+            var subCategoryes = [Int]()
+            if let allData = objCategory?.child_categories {
+                subCategoryes = allData
+            }
+            objProductViewModel.arrProducts.removeAll()
+            let arrAllCategories:[Categories] = (objCategoryModel?.categories)!
+            if subCategoryes.count > 0 {
+                for productid in subCategoryes {
+                    for category in arrAllCategories {
+                        if productid == category.id {
+                            for productData in category.products! {
+                                objProductViewModel.arrProducts.append(productData)
+                            }
+                        }
+                    }
+                    
+                }
+                objProductViewModel.arrSearchProducts = objProductViewModel.arrProducts
+            }
+        }
         let data = objCategoryModel?.rankings
         let names = data?.compactMap{$0.ranking}
         if names != nil {

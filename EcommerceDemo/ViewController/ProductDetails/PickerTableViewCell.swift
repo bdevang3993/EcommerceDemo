@@ -9,6 +9,7 @@
 import UIKit
 
 class PickerTableViewCell: UITableViewCell {
+    var tagSelected:TASenderTag?
     @IBOutlet weak var lblTitle: UILabel!
     @IBOutlet weak var lblDescription: UILabel!
     @IBOutlet weak var imgDown: UIImageView!
@@ -27,7 +28,9 @@ class PickerTableViewCell: UITableViewCell {
 
     
     @IBAction func btnPickerClicked(_ sender: UIButton) {
-        
+        var tag:Int = 0
+            tag = sender.tag
+        tagSelected!(tag)
     }
     
 }

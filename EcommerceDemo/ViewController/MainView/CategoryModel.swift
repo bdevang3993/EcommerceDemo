@@ -37,12 +37,19 @@ struct Products : Decodable {
     let view_count : Int?
     let name : String?
     let date_added : String?
-    
+    let order_count:Int?
+    let shares : Int?
+    let variants:[Variants]?
+    let tax:Tax?
     enum CodingKeys: String, CodingKey {
         case id = "id"
         case view_count = "view_count"
         case name = "name"
         case date_added = "date_added"
+        case variants = "variants"
+        case tax = "tax"
+        case order_count = "order_count"
+        case shares = "shares"
     }
 }
 struct Rankings : Decodable {

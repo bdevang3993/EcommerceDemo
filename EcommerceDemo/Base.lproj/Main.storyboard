@@ -301,6 +301,9 @@
                                             <constraint firstAttribute="height" constant="30" id="pLm-if-8KB"/>
                                         </constraints>
                                         <state key="normal" image="backArrow"/>
+                                        <connections>
+                                            <action selector="btnBackClicked:" destination="lCZ-cs-Sag" eventType="touchUpInside" id="Vik-yL-xqI"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -361,10 +364,10 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="downArrow" translatesAutoresizingMaskIntoConstraints="NO" id="JFc-ZN-2pQ">
-                                                    <rect key="frame" x="40" y="37.5" width="40" height="40"/>
+                                                    <rect key="frame" x="40" y="52.5" width="20" height="20"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="40" id="1Ug-wY-f5G"/>
-                                                        <constraint firstAttribute="height" constant="40" id="LAc-0T-g0z"/>
+                                                        <constraint firstAttribute="width" constant="20" id="1Ug-wY-f5G"/>
+                                                        <constraint firstAttribute="height" constant="20" id="LAc-0T-g0z"/>
                                                     </constraints>
                                                 </imageView>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tmN-ZP-xfT">
@@ -378,7 +381,7 @@
                                             <constraints>
                                                 <constraint firstItem="JFc-ZN-2pQ" firstAttribute="leading" secondItem="h3p-eE-pc2" secondAttribute="trailing" constant="20" id="1hf-Xn-B8x"/>
                                                 <constraint firstItem="h3p-eE-pc2" firstAttribute="top" secondItem="nsp-Er-Jbl" secondAttribute="bottom" constant="20" id="29n-Rf-n9A"/>
-                                                <constraint firstItem="JFc-ZN-2pQ" firstAttribute="centerY" secondItem="h3p-eE-pc2" secondAttribute="centerY" constant="-5" id="3Uq-Tg-SpR"/>
+                                                <constraint firstItem="JFc-ZN-2pQ" firstAttribute="centerY" secondItem="h3p-eE-pc2" secondAttribute="centerY" id="3Uq-Tg-SpR"/>
                                                 <constraint firstItem="nsp-Er-Jbl" firstAttribute="top" secondItem="URu-mH-ntG" secondAttribute="top" constant="5" id="4T8-aV-2qv"/>
                                                 <constraint firstAttribute="trailing" secondItem="tmN-ZP-xfT" secondAttribute="trailing" id="5gP-xP-GHP"/>
                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="JFc-ZN-2pQ" secondAttribute="trailing" constant="20" id="C04-0G-zRn"/>

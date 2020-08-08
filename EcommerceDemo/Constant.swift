@@ -16,7 +16,7 @@ let hud = JGProgressHUD(style: .dark)
 let screenSize = UIScreen.main.bounds
 let screenWidth = screenSize.width
 let screenHeight = screenSize.height
-let kAppName = "EcommerceDemo"
+let kAppName = "Ecommerce Demo"
 let MainStoryBoard = "Main"
 let ksuccess = "success"
 var historySelectedDate = Date()
@@ -24,6 +24,7 @@ var deviceID:String = UIDevice.current.identifierForVendor!.uuidString
 //MARK:- TypeDefine Declaration
 typealias TAAPISuccess = (String) -> Void
 typealias TAAPIFailed = (String) -> Void
+typealias TASenderTag = (Int) -> Void
 
 //MARK:- Constant API URL
 let baseURL = "https://stark-spire-93433.herokuapp.com/json"
@@ -85,3 +86,16 @@ enum UIUserInterfaceIdiom : Int {
     case pad   // iPad style UI (also includes macOS Catalyst)
 }
 
+extension Array where Element: Hashable {
+    func removingDuplicates() -> [Element] {
+        var addedDict = [Element: Bool]()
+
+        return filter {
+            addedDict.updateValue(true, forKey: $0) == nil
+        }
+    }
+
+    mutating func removeDuplicates() {
+        self = self.removingDuplicates()
+    }
+}

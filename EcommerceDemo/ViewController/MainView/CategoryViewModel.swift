@@ -13,6 +13,7 @@ class CategoryViewModel: NSObject {
   var apiFailedMessage:TAAPIFailed?
   var arrMainData = [Categories]()
   var arrSearchData = [Categories]()
+  var objMainModel:CategoryModel?
     //MARK:- API request Registration
     func getAllData(){
         do
@@ -20,6 +21,7 @@ class CategoryViewModel: NSObject {
             let getInfo = baseURL//baseURL + signupAPI
             DispatchQueue.global(qos: .userInitiated).sync {
                 APIRequest.shared.getAPIRequest(serviceName: getInfo, completionBlockSuccess: { (cm:CategoryModel) in
+                    self.objMainModel = cm
                     self.arrMainData = cm.categories!
                     self.arrSearchData = self.arrMainData
                     self.apisuccessMessage!(ksuccess)
@@ -47,6 +49,7 @@ extension ViewController: UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let objProduct = UIStoryboard(name: MainStoryBoard, bundle: nil).instantiateViewController(identifier:  "ProductViewController") as! ProductViewController
+        objProduct.objCategoryModel = objCategoryViewModel.objMainModel
         objProduct.objCategory = objCategoryViewModel.arrSearchData[indexPath.row]
         self.navigationController?.pushViewController(objProduct, animated: true)
     }

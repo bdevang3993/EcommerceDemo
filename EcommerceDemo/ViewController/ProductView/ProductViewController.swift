@@ -14,6 +14,7 @@ class ProductViewController: UIViewController {
     @IBOutlet weak var btnSortBy: UIButton!
     @IBOutlet weak var tblProductDisplay: UITableView!
     @IBOutlet weak var lblProductData: UILabel!
+    var objCategoryModel:CategoryModel?
     var objCategory:Categories?
     var objProductViewModel = ProductViewModel()
     override func viewDidLoad() {
@@ -30,11 +31,18 @@ class ProductViewController: UIViewController {
         searchView.searchTextField.delegate = self
         objProductViewModel.arrProducts = objCategory?.products as! [Products]
         objProductViewModel.arrSearchProducts = objProductViewModel.arrProducts
+        let data = objCategoryModel?.rankings
+        let names = data?.compactMap{$0.ranking}
+        if names != nil {
+            objProductViewModel.arrSortBy = names!
+            print("Data = \(objProductViewModel.arrSortBy)")
+        }
         self.tblProductDisplay.reloadData()
     }
     
     @IBAction func btnSortByClicked(_ sender: Any) {
         
+        self.setUpPicker(arrPickerData: objProductViewModel.arrSortBy)
     }
     
     @IBAction func btnBackClicked(_ sender: Any) {
